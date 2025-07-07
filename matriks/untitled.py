@@ -15,14 +15,14 @@ import pandas as pd
 
 st.set_page_config(page_title="Kalkulator Perkalian Matriks", layout="centered")
 
-st.title("🧮 Kalkulator Perkalian Matriks 2")
+st.title("🧮 Kalkulator Perkalian Antar Matriks ")
 st.markdown("""
 Selamat datang! Aplikasi ini membantu kamu menghitung hasil **perkalian dua matriks**.
 Pastikan jumlah **kolom Matriks A** sama dengan jumlah **baris Matriks B** agar bisa dikalikan.
 
 """)
 
-st.sidebar.header("🔢 Ukuran Matriks")
+st.sidebar.header("🔢 Ukuran Matriks 2")
 baris_a = st.sidebar.number_input("Jumlah Baris Matriks A", min_value=1, max_value=5, value=2)
 kolom_a = st.sidebar.number_input("Jumlah Kolom Matriks A/ Jumlah Baris Matriks B", min_value=1, max_value=5, value=2)
 baris_b = kolom_a  # syarat agar matriks bisa dikalikan
