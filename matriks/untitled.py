@@ -59,6 +59,5 @@ st.markdown("""
 
 📚 **Catatan:**
 - Perkalian matriks hanya bisa dilakukan jika jumlah **kolom Matriks A = baris Matriks B**.
-- Jika kamu masih bingung, coba tanyakan ke guru atau cari contoh di buku matematika!
 
 """)
