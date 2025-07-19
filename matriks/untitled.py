@@ -21,6 +21,10 @@ Selamat datang! Aplikasi ini membantu kamu menghitung hasil **perkalian dua matr
 Pastikan jumlah **kolom Matriks A** sama dengan jumlah **baris Matriks B** agar bisa dikalikan.
 
 """)
+st.markdown("""
+Lembar Kerja Siswa bisa diakses di : https://drive.google.com/drive/folders/12BaeyLDrNdra-wNBfo6pntUlw8gpP_Vr?usp=drive_link
+
+""")
 
 st.sidebar.header("🔢 Ukuran Matriks 2")
 baris_a = st.sidebar.number_input("Jumlah Baris Matriks A", min_value=1, max_value=5, value=2)
