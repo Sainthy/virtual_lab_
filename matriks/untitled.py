@@ -22,6 +22,10 @@ Pastikan jumlah **kolom Matriks A** sama dengan jumlah **baris Matriks B** agar 
 
 """)
 st.markdown("""
+jika anda menggunakan perangkat mobile, rotasikan layar untuk pengalaman yang lebih baik📲
+
+""") 
+st.markdown("""
 Lembar Kerja Siswa bisa diakses di : https://drive.google.com/drive/folders/12BaeyLDrNdra-wNBfo6pntUlw8gpP_Vr?usp=drive_link
 
 """)
